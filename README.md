@@ -14,6 +14,7 @@ $heroku authorizations:create
 
 3. Copy Token string to Github->Settings->Secret
 
+4. When pushing and releasing the container, you can specify an app name
 
 # About image
 Expose port 3000, 80
