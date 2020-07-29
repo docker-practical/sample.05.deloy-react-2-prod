@@ -7,6 +7,13 @@ https://medium.com/bb-tutorials-and-thoughts/how-to-serve-react-application-with
 ## Deloy with github actions and Heroku
 https://dev.to/heroku/deploying-to-heroku-from-github-actions-29ej
 
+## Heroku
+1. Download Heroku CLI
+2. Create an OAuth authorisation
+$heroku authorizations:create
+
+3. Copy Token string to Github->Settings->Secret
+
 
 # About image
 Expose port 3000, 80
