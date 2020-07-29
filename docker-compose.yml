@@ -4,6 +4,4 @@ services:
     web:
       build: .
       ports:
-       - "3000:80"
-      volumes:
-       - ./build:/usr/share/nginx/html
+       - "80:80"

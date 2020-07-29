@@ -27,6 +27,9 @@ docker run -d --name [naming-app] -p 3000:80 react-app
 
 Ex: docker run -d --name reactapp -p 3000:80 react-app
 
+## Run with dev
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+
 # Run Watch
 $npm run dev
 
